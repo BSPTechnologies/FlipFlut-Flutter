@@ -1,0 +1,31 @@
+name: FlipFlut
+description: A Demo Flutter application
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.18.0
+  shared_preferences: ^0.4.2
+  url_launcher: ^3.0.0
+  flutter_launcher_icons: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/1x1_transparent.png
+    - assets/images/flutboard_logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/flutboard_logo_600.png"
+  adaptive_icon_background: "#FF29B6F6"
+  adaptive_icon_foreground: "assets/images/flutboard_logo_transparent.png"
